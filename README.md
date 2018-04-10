@@ -1,9 +1,5 @@
----
-lang: 'en'
-title: 'home'
-...
 
-## نوشته‌ها
+## My Posts
 
 * [about me](/blog/2018/aboutme.html)
 
