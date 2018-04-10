@@ -79,32 +79,14 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <body>
 <article class="markdown-body">
 <header>
-<h1 class="title">برداشت ۱۱ — به زبان دامنه</h1>
-</header>
-<!--# برداشت ۱۱ — به زبان دامنه -->
-<p>تکه کد زیر را در نظر بگیرید:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode java"><code class="sourceCode java"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="kw">if</span> (courseIdByStudentId</a>
-<a class="sourceLine" id="cb1-2" data-line-number="2">    .<span class="fu">get</span>(s.<span class="fu">getId</span>())</a>
-<a class="sourceLine" id="cb1-3" data-line-number="3">    .<span class="fu">contains</span>(c.<span class="fu">getId</span>())) </a>
-<a class="sourceLine" id="cb1-4" data-line-number="4">{ <span class="kw">... </span>}</a></code></pre></div>
-<p>خیلی مهم نیست و خیلی تلاش نکنید. تا به حال چند بار همچنین کدی را خوانده تا بتوانید تغییری در آن دهید؟</p>
-<p>بعد از کمی خواندن و جستجو در کد معلوم می‌شود که این تکه نگاشت دروس گذرانده‌شده توسط یک دانشجو می‌باشد. دوباره بعد از کمی تأمل مشخص می‌شود که گزاره <code>if</code> در این کد برای تشخیص این که آیا دانشجویی، درسی را گذرانده است یا نه، به کار رفته است.</p>
-<p>یعنی به شکل ساده، در ابتدا، هدف این بوده است: آیا دانشجوی دال درس سین را گذرانده است؟</p>
-<p>اما چرا این سؤال ساده به این شکل خیلی پیچیده در کد ظاهر شده است؟</p>
-<p><strong>اول</strong> این یک ویژگی رابط (API Feature) است که فراموش شده است:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode java"><code class="sourceCode java"><a class="sourceLine" id="cb2-1" data-line-number="1"><span class="kw">interface</span> Student {</a>
-<a class="sourceLine" id="cb2-2" data-line-number="2">  <span class="dt">boolean</span> <span class="fu">takenCourse</span>(Course c);</a>
-<a class="sourceLine" id="cb2-3" data-line-number="3">}</a></code></pre></div>
-<p>بسیاری از اوقات سرعت تولید قربانی طراحی درست می‌شود. مراقب باشیم چنین ویژگی‌های منطقی و لازم برای محصول/سرویس را از قلم نیندازیم.</p>
-<p><strong>دوم</strong> ساختمان‌های داده خیلی پیشرفته‌تر از سال‌های قبل در اختیار ماست. زمانی بوده است که داشتن کلاس/شی و یا ساختمان‌های داده با توجه به محدود‌یت‌های سخت‌افزاری و حافظه کار سختی بوده است. ما دیگر در آن دوران نیستم همان طور که آیندگان ما ممکن است در مورد ساختمان‌داده‌های زمان حاضر پیشرفت‌های دیگری داشته باشند. استفاده از <code>Map</code> در کاربرد بالا در واقع درست است اما در پس تعریف درست ویژگی باعث آسیب می‌شود.</p>
-<p>به زبان دامنه (Domain Language) سیستمی که روی آن کار می‌کنیم آشنا شویم و آن را به درستی در واسط‌های سیستم استفاده کنیم. در مثال ما، زبان دامنه، زبان یک سیستم آموزشی شامل دانشجو و درس می‌باشد.</p>
-<div id="disqus_thread"></div><script>var disqus_config=function(){this.page.url=window.location.href;this.page.identifier=window.location.pathname.replace(/\//g, '_');};(function(){var d=document, s=d.createElement('script');s.src = 'https://narmnevis.disqus.com/embed.js';s.setAttribute('data-timestamp', +new Date());(d.head || d.body).appendChild(s);})();</script><noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-</article><header>
 <h1 class="title">Farhad Faramarzi</h1>
 </header>
 
 <p>I am a Senior iOS Developer</p>
-<p>I worked at Shatel and Golrang System. I've had experince in iOS/Swift for 8 years</p><p>You can contact me with :</p><p>emil: Farhad.public@gmail.com</p><p>twitter: @publicFarhad</p></article>
+<p>I worked at Shatel and Golrang System. I've had experince in iOS/Swift for 8 years</p>
+<p>You can contact me with :</p>
+<p>emil: Farhad.public@gmail.com</p>
+<p>twitter: @publicFarhad</p></article>
 
 </body>
 </html>
