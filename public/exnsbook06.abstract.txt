@@ -1,0 +1,14 @@
+Exception specifications can aid in the tasks of writing correct exception
+handlers and understanding exceptional control flow, but current exception
+specification systems are impractical in a number of ways. In particular, they
+are too low-level, too heavyweight, and do not provide adequate support for
+describing exception policies.
+
+We have identified the essential properties of a practical exception
+specification system and we present a methodology and tool that provides
+integrated support for specifying, understanding, and evolving exception
+policies.  The annotations required of the programmer are lightweight and easier
+to maintain than those of current systems; in our studies we observed a 50% to
+93% reduction in annotations. By leveraging these annotations, our system
+provides scalable support for understanding exception flow and for modifying
+exception annotations.

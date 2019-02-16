@@ -1,0 +1,33 @@
+In many ways, existing languages place unrealistic expectations on library and
+framework designers, allowing some varieties of client reuse only if it is
+explicitly---sometimes manually---supported. Instead, we should aim for the
+ideal: a language design that reduces the amount of prognostication that is
+required on the part of the original designers. In particular, I show that
+languages can and should support a \emph{combination} of structural and
+nominal subtyping, \emph{external dispatch}, and a form of \emph{multiple
+inheritance}.
+
+Structural subtyping, which allows new types to be added to an existing
+hierarchy post-hoc, has been studied for decades, but a na\"ive combination of
+structural subtyping and external dispatch poses serious typechecking issues.
+Instead, I present a novel combination of structural subtyping, nominal
+subtyping, and external dispatch---external dispatch allowing programmers to
+write new code that dynamically dispatches on an existing hierarchy. In its
+absence, programmers will often resort to writing manual dispatch code, which
+is tedious, error-prone, and lacks extensibility.
+
+External dispatch is also difficult to combine with another useful language
+feature---multiple inheritance. It so happens that \emph{any} form of multiple
+inheritance (even Java-style) makes modular typechecking of external methods
+extremely difficult; this is due to the so-called ``diamond problem.'' To
+sidestep these issues, I propose a novel form of multiple inheritance which
+does not allow diamonds, but recovers expressiveness through a generalized
+form of self-types.
+
+Finally, since languages with structural subtyping are used mainly in the
+research community, it had thus far remained unclear whether structural
+subtyping is actually useful in practice. To answer this question, I performed
+a novel empirical study of existing Java programs, which found that (a) even
+nominally-typed programs could benefit from structural subtyping, and (b)
+there is a potential synergy between structural subtyping and external
+dispatch.

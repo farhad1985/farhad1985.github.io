@@ -1,0 +1,102 @@
+@phdthesis{malayeriThesis09,
+ author = {Donna Malayeri},
+ title = {Coding Without Your Crystal Ball: {U}nanticipated Object-Oriented Reuse},
+ year = {2009},
+ school = {Carnegie Mellon University},
+ address = {Pittsburgh, PA, USA},
+ number = "CMU-CS-09-163",
+}
+
+@inproceedings{malayeriCZ09,
+  author    = {Donna Malayeri and Jonathan Aldrich},
+  title     = {{CZ}: {M}ultiple Inheritance Without Diamonds},
+  booktitle = {{OOPSLA '09}},
+  month     = {October},
+  year      = {2009},
+}
+
+@techreport	{malayeriMultiCZtr09, 
+	author	= "Donna Malayeri and Jonathan Aldrich",	
+	title	= "{CZ}: {M}ultimethods and Multiple Inheritance Without Diamonds", 
+	institution = "School of Computer Science, Carnegie Mellon University",
+	number	= "CMU-CS-09-153",
+	month   = aug,
+	year	= "2009",
+}
+
+@inproceedings{malayeriFool09,
+  author    = {Donna Malayeri},
+  title     = {{CZ}: {M}ultiple Inheritance Without Diamonds},
+  booktitle = {{FOOL '09}},
+  month     = jan,
+  year      = {2009},
+}
+
+@techreport	{malayeriCZtr08, 
+	author	= "Donna Malayeri and Jonathan Aldrich",	
+	title	= "{CZ}: {M}ultiple Inheritance Without Diamonds", 
+	school = "Carnegie Mellon University",
+	number	= "CMU-CS-08-169",
+	month   = "Dec.",
+	year	= "2008",
+}
+
+@inproceedings(malayeriEsop09,
+	author	= "Donna Malayeri and Jonathan Aldrich",	
+	title	= "Is Structural Subtyping Useful? {A}n Empirical Study", 
+	booktitle = "ESOP '09",
+	month = mar,
+	year = "2009",
+)
+
+@techreport	{malayeriEsopTR09, 
+	author	= "Donna Malayeri and Jonathan Aldrich",	
+	title	= "Is Structural Subtyping Useful? {A}n Empirical Study", 
+	institution = "School of Computer Science, Carnegie Mellon University",
+	number	= "CMU-CS-09-100",
+	month   = "January",
+	year	= "2009",
+}
+
+@inproceedings {malayeriIntegrating08,
+     author = {Donna Malayeri and Jonathan Aldrich},
+     title = {Integrating Nominal and Structural Subtyping},
+     booktitle = {ECOOP 2008},
+     month = {July},
+     year = 2008,
+}
+
+@techreport{malayeri08TR,
+     author = "Donna Malayeri and Jonathan Aldrich",
+     title = "Integrating Nominal and Structural Subtyping",
+     institution = "School of Computer Science, Carnegie Mellon University",
+     number = "CMU-CS-08-120",
+     month = may,
+     year = "2008",
+}
+
+@inproceedings{malayeri07combining,
+  author    = {Donna Malayeri and
+               Jonathan Aldrich},
+  title     = {Combining Structural Subtyping and External Dispatch},
+  booktitle = {2007 International Workshop on Foundations and Development of
+               Object-Oriented Languages ({FOOL/WOOD}'07)},
+  year      = {2007},
+  note      = {Available at \url{http://foolwood07.cs.uchicago.edu/program.html}}
+}
+
+@inproceedings{malayeri06exceptions,
+  author    = {Donna Malayeri and
+               Jonathan Aldrich},
+  title     = {Practical Exception Specifications},
+  editor    = {Christophe Dony and
+               J{\o}rgen Lindskov Knudsen and
+               Alexander B. Romanovsky and
+               Anand Tripathi},
+  booktitle = {Advanced Topics in Exception Handling Techniques},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {4119},
+  publisher = {Springer},
+  year      = {2006},
+  pages     = {200-220},
+}

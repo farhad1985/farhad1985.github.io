@@ -1,0 +1,20 @@
+Combining Structural Subtyping and External Dispatch
+
+
+Nominal subtyping (or user-defined subtyping) and structural subtyping each have
+their own strengths and weaknesses. Nominal subtyping allows programmers to
+explicitly express design intent, and, when types are associated with run time
+tags, enables run-time ``type''  tests (e.g., downcasts) and
+external/multimethod dispatch. On the other hand, structural subtyping is
+flexible and compositional, allowing unanticipated reuse. To date, nearly all
+object-oriented languages fully support only one subtyping paradigm or the
+other.
+
+In this paper, we describe a core calculus for a language that combines the key
+aspects of nominal and structural subtyping in a unified framework. Our goal is
+to combine the flexibility of structural subtyping while still allowing static
+typechecking of external methods. We prove type safety for this language and
+illustrate its practical utility through several examples which are not easily
+expressed in other languages. Our work provides a clean foundation for the
+design of future languages that enjoy the benefits of both nominal and
+structural subtyping.

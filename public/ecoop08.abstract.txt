@@ -1,0 +1,13 @@
+Nominal and structural subtyping each have their own strengths and weaknesses. Nominal
+subtyping allows programmers to explicitly express design intent, and, when types are
+associated with run time tags, enables run-time type tests and external method dispatch. On the
+other hand, structural subtyping is flexible and compositional, allowing unanticipated reuse.
+To date, nearly all object-oriented languages fully support one subtyping paradigm or the
+other.
+
+In this paper, we describe a core calculus for a language that integrates the key aspects of
+nominal and structural subtyping in a unified framework. We have also merged the flexibility of
+structural subtyping with statically typechecked external methods, a novel combination. We
+prove type safety for this language and illustrate its practical utility through examples that
+are not easily expressed in other languages. Our work provides a clean foundation for the
+design of future languages that enjoy the benefits of both nominal and structural subtyping.

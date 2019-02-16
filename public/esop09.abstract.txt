@@ -1,0 +1,11 @@
+Structural subtyping is very popular in research languages, but all mainstream
+object-oriented languages use nominal subtyping. Since languages with structural
+subtyping are not in widespread use, the empirical questions of whether and how
+structural subtyping is useful have thus far remained unanswered. This study aims
+to provide answers to these questions. We identified several criteria that are
+indicators that nominally typed programs could benefit from structural subtyping,
+and performed 5 manual and 2 automated analyses of open-source Java programs
+based on these criteria. Our results suggest that these programs could indeed be
+improved with the addition of structural subtyping. We hope this study will
+provide guidance for language designers who are considering use of this subtyping
+discipline.
