@@ -6,8 +6,7 @@
 
 a
 {
-	color: purple;
-	text-decoration: underline;
+	color: #4ebaaa;
 }
 
 a.anchor
@@ -50,20 +49,19 @@ body
 
 #outer2
 {
-	border: dotted 1px #EFEAD1;
 	padding: 1.0em;
 }
 
 #menu
 {
-	background-color: gray;
+	background-color:  #00897b;;
 	background-repeat: repeat-x;
 	color: #ffffff;
 	height: 1.4em;
 	line-height: 1.4em;
 	padding: 0.8em;
 	border-bottom: solid 1px #ffffff;
-	border-top: solid 1px gray;
+	border-top: solid 1px #005b4f;;
 }
 
 #menu a
@@ -83,7 +81,7 @@ body
 	display: inline;
 	font-size: 0.9em;
 	font-weight: 600;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'helvetica', helvetica;
 }
 
 #menu li a
@@ -93,13 +91,13 @@ body
 
 #menu li a:hover
 {
-	background-color: rgba(114, 31, 114, 0.712);
+	background-color:  #005b4f;
 	background-repeat: repeat-x;
 }
 
 #menu a.active
 {
-	background-color: rgb(95, 5, 95);
+	background-color:  #005b4f;
 	background-repeat: repeat-x;
 }
 
@@ -114,12 +112,12 @@ body
 	text-transform: lowercase;
 	font-weight: 400;
 	letter-spacing: -0.05em;
-	font-family: 'Open Sans', serif;  
+	font-family: 'helvetica', helvetica;  
 }
 
 #header span.myname 
 { 
-	color: purple; 
+	color: #005b4f; 
 } 
 
 #header span.bolded
@@ -141,8 +139,9 @@ body
 	margin-top: 0.0em;
 	padding: 1.2em;
 	line-height: 1.5em;
-	font-size: 1em;
+	font-size: 1.1em;
 	position: relative;
+	font-family: 'helvetica', helvetica;
 }
 
 #footer
@@ -254,7 +253,7 @@ body
 
 img.mypic
 {
-    border-color: purple;
+    border-color: #00897b;
     border-width: 2px;
     border-style: solid;
 }
