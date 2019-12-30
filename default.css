@@ -254,7 +254,7 @@ body
 img.mypic
 {
     border-color: #00897b;
-    border-width: 2px;
+    border-width: 0px;
     border-style: solid;
 }
 
